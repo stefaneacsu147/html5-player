@@ -51,7 +51,7 @@ function toggleFullScreenClasses() {
 }
 
 function togglePlay() {
-  if(video.paused) {
+  if (video.paused) {
     video.play();
   } else {
     video.pause();
@@ -98,5 +98,3 @@ document.addEventListener('fullscreenchange', toggleFullScreenClasses);
 document.addEventListener('mozfullscreenchange', toggleFullScreenClasses);
 document.addEventListener('webkitfullscreenchange', toggleFullScreenClasses);
 document.addEventListener('msfullscreenchange', toggleFullScreenClasses);
-
-
